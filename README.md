@@ -5,18 +5,21 @@
 To install the latest version of Soul, run:
 
 ### macOS/Linux
+
 ```bash
-sh <(curl -fsSL https://raw.githubusercontent.com/gantz-ai/soul-release/main/install.sh)
+sh <(curl -fsSL https://soul-lang.com/install.sh)
 ```
 
 Or with wget:
+
 ```bash
-sh <(wget -qO- https://raw.githubusercontent.com/gantz-ai/soul-release/main/install.sh)
+sh <(wget -qO- https://soul-lang.com/install.sh)
 ```
 
 ### Windows (PowerShell)
+
 ```powershell
-iwr -useb https://raw.githubusercontent.com/gantz-ai/soul-release/main/install.ps1 | iex
+iwr -useb https://soul-lang.com/install.ps1 | iex
 ```
 
 ## Manual Installation
@@ -62,10 +65,12 @@ soul update --dry-run
 ## Release Structure
 
 Each release includes:
+
 - Compressed archives for each platform in their respective directories
 - `latest.txt` - Current version number
 
 ### Directory Structure
+
 ```
 soul-release/
 ├── latest.txt
